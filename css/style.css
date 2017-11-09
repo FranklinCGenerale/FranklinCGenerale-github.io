@@ -1,0 +1,218 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	
+}
+
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo{
+	padding-left: 10%;
+	}
+
+header{
+	background-color: #ffffff;
+	height: 10%;
+	
+}
+
+header a{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 16px;	
+}
+
+header a:hover{
+	color:#ff0000;
+	font-weight: bold;
+}
+
+.current{
+	color:#ff0000;
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 20px;
+}
+
+header nav{
+	float:right;
+	margin-top: 20px;
+	padding-right: 20px;
+}
+
+header .marquee{
+	background-color: #0000ff; 
+}
+
+body{
+	background: #c0c0c0;
+	color: #67727a;
+	font-family: Arial, Helvitica, sans-serif;
+	margin: 0; 
+}
+
+h2{
+	font-size: 250%;
+	font-weight: 700;
+	text-align: center;
+	padding-top: 2%;
+	color: #f5f5f5;
+}
+
+h3{
+	font-size: 175%;
+	line-height: 155%;
+	padding: 5%; 0;
+	font-weight: 400;
+	color: #f5f5f5;
+}
+
+
+
+
+.banner{
+	width: 100%;
+	background-color: #800000;
+}
+
+.banner-inner{
+	max-width: 200%;
+	margin: 0 auto;
+}
+
+.skills{
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+#html{
+	background-color: #c0c0c0;
+	width: 30%;
+	padding-right: 3%;
+}
+
+#css3{
+	background-color: #008080;
+	width: 30%;
+	padding-right: 4%;
+}
+
+#operator{
+	background-color: #ff00ff;
+	width: 30%;
+	padding-right: 3%;
+}
+
+#smiley{
+	background-color: #aadcd2;
+	padding: 0 0 1%;
+	clear: both;
+}
+
+footer{
+	background-color: #6991ac;
+	width: 100%;
+}
+
+.social li{
+	width: 30%;
+	float: left
+}
+
+.social li h3{
+	padding-left: 20%;
+}
+
+.fb{
+	background: #ff0000;
+	padding: none;
+	border-radius: 5%;
+}
+
+.fb a:hover{
+	color: #008000;
+}
+
+.contact{
+	background: #ff0000;
+	color: #0000ff;
+	margin:0 auto;
+	padding: 30px 0 30px 30px;
+}
+
+.info, .form-box{
+	text-align: center;
+}
+
+form{
+	
+}
+
+.form-box{
+ 	text-align: left;
+ 	padding: 30px;
+ 	border-radius: 5px
+}
+
+.form-box label{
+	color: #000000;
+}
+
+.contact input{
+	padding-top: 5px;
+	border-radius: 5px
+}
+
+.inp{
+	width: 20%;
+	height: 30%;
+	border: #c0c0c0 solid;
+}
+
+.msg-box{
+	height: 100%;
+	width: 20%;
+	border: #c0c0c0 solid;
+	border-radius: 5px
+}
+
+.sub-btn{
+	width: 5%;
+	height: 30%;
+	border: #cococo solid;
+}
+
+
+footer.second{
+	border-top: 2px solid #aadcd2;
+	background-color: #544b59;
+	max-height: 55px;
+
+}
+
+footer.second p{
+	padding: 5px 0 9px 0;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+	header,body{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+}
+
+
+

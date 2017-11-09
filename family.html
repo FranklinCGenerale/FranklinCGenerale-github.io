@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=divice-width">
+	<meta name="description" content="Generale Family">
+	<meta name="author" content="John Frank">
+	<title> JF Generale Family</title>
+	<link rel="stylesheet" href="./css/family.css">
+
+</head>
+<body id="container">
+	<header>
+		<div class="container">
+			<div id="branding">
+				<h1><span class="highlight">Generale</span> Family</h1>
+			</div>
+
+			<nav>
+				<ul>
+					<li><a href="home.html">Home</a></li>
+					<li><a class="current" href="family.html">about</a></li>
+					<li><a href="mye.html">Services</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<section id="showcase">
+		<div class="container">
+			<h1>A Happy Family</h1>
+			<p>A Family that prays together stays together .</p>
+		</div>
+	</section>
+
+	<section id="newsletter">
+		<div class="container">
+			<h1>Know our Family;</h1>			
+			<form action="mail_handler.php" method="post" name="form" class="form-box">
+				<label for="name">Name</label><br>
+				<input type="text" name="name" class="inp" placeholder="Enter your name" required><br>
+				<label for="eamil">Email ID</label><br>
+				<input type="email" name="email" class="inp" placeholder="Enter your Email" required><br>
+				<label for="phone">Phone</label><br>
+				<input type="tel" name="phone" class="inp" placeholder="Enter you Phone"><br>
+				<label for="message">Message</label><br>
+				<textarea name="msg" class="msg-box" placeholder="Enter you message here"></textarea><br>
+				<input type="submit" name="submit" value="Send" class="sub-btn">
+			</form>
+		</div>
+	</section>
+
+	<section id="boxes">
+		<div class="container">		
+			<div class="box">
+				<img src="./image/wife.jpg">
+				<h3>Ma. Gamaliela Obial Generale</h3>
+				<p>Wife</p>
+			</div>
+			<div class="box">
+				<img src="./image/son.jpg">
+				<h3>Sealtiel Kent O. Generale</h3>
+				<p>Son</p>
+			</div>
+			<div class="box">
+				<img src="./image/daughter.jpg">
+				<h3>Saleshe Marie O. Generale</h3>
+				<p>Daughter</p>
+			</div>
+		</div>
+	</section>
+
+	<footer>
+		<p>John Frank, Copyright &copy 2017</p>
+	</footer>
+</body>
+</html>

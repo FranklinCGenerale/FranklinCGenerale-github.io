@@ -1,0 +1,126 @@
+.container{
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+.logo{
+	float: left;
+	padding-left: 2%;
+}
+
+header{
+	text-align: center;
+	padding: 20px;
+}
+
+
+header li{
+	float: right;
+	display: inline;
+	padding:5% 10% 0 0;
+}
+
+header a{
+	text-decoration: none;
+}
+
+header a:hover{ 
+	color: #ff0000;
+	font-weight: bold;
+}
+
+.current{
+	color:#ff0000;
+}
+
+body{
+	background: #c0c0c0;
+	color: #800000;
+	font-family: Arial, Helvitica, sans-serif;
+}
+
+.sweets #cake{
+	float: left;
+	text-align: center;
+	width: 20%;
+	padding: 30px;
+}
+
+.sweets #cake img{
+	width: 100%;
+	height: auto;
+	padding: 15px;
+}
+
+.container{
+	background-color: #00ffff;
+	width: 90%;
+}
+
+
+
+.info{
+	float: left;
+	padding-right: 10%;
+	padding-left: 10%;
+}
+
+.fb{
+	padding-right: 15%;
+
+}
+
+.fb img{
+	background: #ff0000;
+	padding:none;
+	border-radius: 5%;
+	width: 216px;
+	height: 216px;
+	float: right;
+}
+
+.form-box{
+	text-align: center;
+	background: #ff0000;
+	width: 30%;
+	
+	border-right: 5%;
+	border-radius: 5%;
+	float: left;
+}
+
+ .inp{
+ 	width:80%;
+	padding-top: 5px;
+	border-radius: 5px
+	
+}
+
+
+
+.msg-box{
+	width: 80%;
+	border: #c0c0c0 solid;
+	border-radius: 5px
+}
+
+.sub-btn{
+	width: 20%;
+	border: #cococo solid;
+}
+
+footer{
+	padding: none;
+	margin-top: 20%;
+	color: #ffffff;
+	background-color: #e8491d;
+	text-align: center;
+}
+
+@media(max-width: 768px){
+	header,body{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+}
